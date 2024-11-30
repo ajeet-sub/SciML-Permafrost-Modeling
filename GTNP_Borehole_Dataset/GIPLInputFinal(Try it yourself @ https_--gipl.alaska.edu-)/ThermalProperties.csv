@@ -1,0 +1,29 @@
+Layer label,   Depth,      T0,       W,      LF,      LT,      CF,      CT,      Tp,       b
+Fibric     ,   0.150,  -2.000,   0.500,   0.400,   0.110,   1.0e6,   1.99e6,  -0.010,  -0.900
+Humic      ,   0.350,  -1.700,   0.350,   1.000,   0.500,   1.0e6,   1.79e6,  -0.020,  -0.900
+Silt       ,   1.800,  -1.500,   0.300,   1.700,   1.100,   1.5e6,   2.09e6,  -0.020,  -0.800
+Gravel     , 100.000,  -1.300,   0.300,   2.200,   1.500,   1.5e6,   2.09e6,  -0.020,  -0.800
+Soil:
+Maximum soil column depth, [m]
+100
+Geothermal heat flux, [W/m]
+0.05
+Geothermal depth, [m]
+20
+Snow:
+Thermal conductivity, [W/m/C]
+0.18
+Volumetric heat capacity, [J/C/m^3]
+0.55e6
+Maximum thickness, [m]
+2
+
+Depth - Layer Depth [m]
+T0    - Initial Temperature [C]
+W     - Volumetric porosity [m/m]
+LF    - Thermal conductivity (frozen) [W/m/C]
+LT    - Thermal conductivity (thawed) [W/m/C]
+CF    - Volumetric Heat Capacity (frozen) [J/C/m^3]
+CT    - Volumetric Heat Capacity (thawed) [J/C/m^3]
+Tp    - Freezing point depression [C]
+b     - Retention curve coefficient [-]
